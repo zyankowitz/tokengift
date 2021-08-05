@@ -1,0 +1,228 @@
+#title {
+    /* background-color: gray; */
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    /* border-style: solid; */
+    /* border-width: 0px; */
+}
+
+.textGroup{
+    display: inline-block;
+    border:0px solid green;
+    width:90%
+    /* vertical-align: top; */
+}
+
+.filter{
+    display: inline-block;
+    border:0px solid green;
+    width:90%;
+    margin-top:2vh;
+    margin-left:2vw
+    /* vertical-align: top; */
+}
+
+
+
+.secondGroup{
+    display: inline-block;
+    border:0px solid orange;
+    width:90vw;
+    height: 10vh;
+    /* margin-top: 20px; */
+    /* margin-left: 2vw; */
+    /* vertical-align: top; */
+}
+
+
+.divGroup{
+    display: inline-block;
+    border:0px solid green;
+    width:90vw;
+    height: 70vh;
+    margin-top: 20px;
+    margin-left: 2vw;
+    /* vertical-align: top; */
+}
+
+.tokenGroup{
+    display: inline-block;
+    border:0px solid green;
+    width:92vw;
+    height: 15vh;
+    margin-top: 10px;
+    /* margin-left: 2vw; */
+    /* vertical-align: top; */
+}
+.tokenGroupSecond{
+  display: inline-block;
+  border:0px solid green;
+  width:92vw;
+  height: 15vh;
+  margin-top: 6vh;
+  /* margin-left: 2vw; */
+  /* vertical-align: top; */
+}
+.slider {
+    -webkit-appearance: none;
+    width: 25vw;
+    height: 1vh;
+    border-radius: 2px;  
+    background: silver;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: blue;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  .tokenCard{
+    float:left;width:42vw;height: 18vh;border:1px solid gray;background-color: #3F3C3C;
+    border-radius: 25px;
+  }
+
+  .tokenCardRight{
+    float:right;width:42vw;height: 18vh;border:1px solid gray;background-color: #3F3C3C;
+    border-radius: 25px;
+  }
+
+  .tokenCardHeader{
+    padding-top:2vh;
+    display: block;
+    height: 4vh;
+  }
+  .tokenCardMain{
+    display: block;margin-left:10px;width:40vw;height: 7vh;border:0px solid red;
+    text-align: center;
+  }
+
+  .tokenCardFooter{
+    display: block;text-align: center;margin-left:3px;border:0px solid green;height: 3vh;
+  }
+
+  .tokenCardFooterText{
+    float:right;margin-right:2vw;width:12vw;height:2vh;text-align:center;font-size:10px;background-color:cornflowerblue;color:white
+  }
+
+  .tokenCardfull{
+    float:left;width:90vw;height: 15vh;border:0px solid gray;background-color: #3F3C3C;
+    border-radius: 25px;
+  }
+  .tokenCardSecond{
+    float:right;width:42vw;height: 18vh;border:1px solid gray;background-color: #3F3C3C;
+    border-radius: 25px;
+  }
+
+  .header{
+    margin-left:2vw;height: 20vh;width: 90vw;background-color: #3F3C3C;
+    border-radius: 25px;
+  }
+  
+  .btn {
+    background-color: black;
+    border: none;
+    color: white;
+    /* padding: 12px 16px; */
+    font-size: 16px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10vw;
+    width: 5vw;
+    height: 3vh;
+    text-align: center;
+    margin-left: 45vw;
+  }
+  .footer{
+      /* display: inline-block; */
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .cardMain{
+    width: 90vw;
+    height: 75vh;
+    background-color: lightgoldenrodyellow;
+    border-radius: 25px;
+    margin-left:2vw;
+  }
+
+  .cardHeader{
+    display: inline-block;width:85vw;height: 10vh;
+    /* border:1 solid green */
+  }
+
+.coinGroup{
+    display: inline-block;
+    border:0px solid green;
+    width:80vw;
+    height: 10vh;
+
+    /* margin-top: 10px; */
+    margin-left: 5vw;
+    /* vertical-align: top; */
+}
+.coinGroupSecond{
+  display: inline-block;
+  border:0px solid green;
+  width:80vw;
+  height: 10vh;
+  /* margin-top: 6vh; */
+  margin-left: 5vw;
+  /* vertical-align: top; */
+}
+
+.coinCard{
+  display: inline-block;
+  width:25vw;height: 3vh;border:1px solid gray;background-color: black;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+}
+  
+  
+.buttonCard{
+  display: inline-block;
+  border:0px solid green;
+  width:80vw;
+  height: 10vh;
+  /* margin-top: 6vh; */
+  margin-left: 10vw;
+  /* vertical-align: top; */
+}

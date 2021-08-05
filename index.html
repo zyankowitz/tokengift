@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<script src="js/index.js"></script>
+<title>Token Gift</title>
+<link rel="icon" href="img/crypto.jpg">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body style="background-color: black;">
+<div id="header" class="header">
+    <div id="title">
+        <H3 style="padding-top: 10px;color:white">My Cards</H3>
+        <!-- <img src="img/bank-details.jpg"> -->
+        <div class="textGroup">
+            <span style="float: left;color:white">24h P&L</span>
+            <span style="color:white">Value</span>
+            <span style="float: right;color:white">Total P&L</span>
+        </div>
+        <div class="textGroup">
+            <!-- <span style="float: left;">24h P&L</span> -->
+            <span style="color:white">0</span>
+            <!-- <span style="float: right;">Total P&L</span> -->
+        </div>
+        <div class="textGroup" style="margin-top: 10px;">
+            <!-- <span style="float: left;">24h P&L</span> -->
+            <button style="background-color: blue;">View My Cards</button>
+            <!-- <span style="float: right;">Total P&L</span> -->
+        </div>
+    </div>
+</div>
+<div id="main" class="divGroup">
+    <div id="second" class="secondGroup">
+        <div >
+            <H4 style="float: left;width:30vw;margin-left:10vw;color:white">Shop Giftcards</H4>
+            <!-- <span>Value</span> -->
+            <H4 style="float: right;width:30vw;margin-right: 10vw;color:blue">Learn how crypto cards work</H4>
+        </div>
+    </div>
+    <div id="tokenGroup" class="tokenGroup">
+        <!-- <div id="bestSeller" class="tokenCard">
+            <div class="tokenCardHeader">
+                <img src="img/coing.jfif" style="float:left;padding-left:2vw;width:6vw;height: 3vh">
+                <div style="float:right;padding-right:2vw;color:lightgreen">Best Seller</div>
+            </div>
+            <div class="tokenCardMain">
+                <span style="color:white;font-size: 15px;">$100 Crypto Mix</span>
+                <span style="color:white;font-size: 15px;">Locked 1 year</span>
+            </div>
+            <div class="tokenCardFooter">
+                <input type="range" min="1" max="100" value="50" class="slider" style="float:left">
+                <div class="tokenCardFooterText" >
+                        <span>110/119</span>
+                    
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- <div class="tokenCardSecond">
+            <div style="display: inline-block">
+                <img src="img/coing.jfif" style="float:left;padding-top:1vh;padding-left:3vw;width:6vw;height: 3vh">
+                <div style="float:right;color:lightgreen;margin-left:3vw;padding-top: 10px;">New Offering</div>
+            </div>
+            <div style="margin-left:5px;width:35vw;height: 7vh;border:0px solid red">
+                <span style="color:white;font-size: 15px;;white-space: nowrap;">$1000 Crypto Mix</span>
+                <span style="color:white;font-size: 15px;;white-space: nowrap;">Includes Dodg Coin</span>
+            </div>
+            <div style="display: inline-block;text-align: center;margin-left:3px;border:0px solid green;height: 3vh;">
+                <input type="range" min="1" max="100" value="50" class="slider" style="float:left">
+                <div style="width:10vw;height:2vh;border:0px solid red;float:right;background-color:darkgoldenrod;" >
+                    <div style="width:5vw;height: 1vh;border:0px solid red;text-align: center;font-size: 10px;padding-top:2px;padding-left: 5px;color: white;">
+                        4/200
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <!-- <div class="tokenGroupSecond">
+        <div class="tokenCard">
+            <div style="display: inline-block">
+                <img src="img/coing.jfif" style="float:left;padding-top:1vh;padding-left:3vw;width:6vw;height: 3vh">
+                <div style="float:right;color:lightgreen;margin-left:8vw;padding-top: 10px;">Limited</div>
+            </div>
+            
+            <div style="margin-left:5px;width:35vw;height: 4vh;border:0px solid red">
+                <span style="color:white;font-size: 15px;;white-space: nowrap;">$10000 Lovers</span>
+                <span style="color:white;font-size: 15px;;white-space: nowrap;">Mix</span>
+                <br/>
+                <span style="color:gray;font-size:10px">9 New Tasks</span>
+            </div>
+            
+            <div style="margin-top:20px;display: inline-block;text-align: center;margin-left:3px;border:0px solid green;height: 3vh;">
+                
+                <input type="range" min="1" max="100" value="50" class="slider" style="float:left">
+                <div style="width:10vw;height:2vh;border:0px solid red;float:right;background-color:silver;" >
+                    <div style="width:5vw;height: 1vh;border:0px solid red;text-align: center;font-size: 10px;padding-top:2px;padding-left: 2px;color: white;">
+                        110/119
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tokenCardSecond">
+            <div style="display: inline-block">
+                <img src="img/coing.jfif" style="float:left;padding-top:1vh;padding-left:3vw;width:6vw;height: 3vh">
+                <div style="float:right;color:lightgreen;margin-left:8vw;padding-top: 10px;">Risk On</div>
+            </div>
+            
+            <div style="margin-left:5px;width:35vw;height: 7vh;border:0px solid red">
+                <span style="color:white;font-size: 15px;;white-space: nowrap;">$1000 High Risk</span>
+                <br/>
+                <span style="color:gray;font-size:10px">High Risk</span>
+            </div>
+            <div style="display: inline-block;text-align: center;margin-left:3px;border:0px solid green;height: 3vh;">
+                <input type="range" min="1" max="100" value="50" class="slider" style="float:left">
+                <div style="width:10vw;height:2vh;border:0px solid red;float:right;background-color:darkgoldenrod;" >
+                    <div style="width:5vw;height: 1vh;border:0px solid red;text-align: center;font-size: 10px;padding-top:2px;padding-left: 5px;color: white;">
+                        4/200
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    
+    <div id="loadDiv" style="position:absolute;margin-top:-40vh;margin-left:8vw;width:80vw;height:80v;visibility:hidden">
+        <img id="loading" alt="" src="img/crypto.jpg" style="margin-left:5vw;width:60vw;height:30vh;opacity: 100%;"/>
+        <div class="loader" style="margin-top: -25vh;margin-left:20vw"></div>
+        <!-- <h2 style="margin-left:5vw;color:black">Token Being Generated</h2> -->
+    </div>
+</div>
+<script>
+    buildHtml();
+    
+</script>
+</body>
+</html>
